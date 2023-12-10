@@ -8,12 +8,16 @@ const candidateDetails = {
 
 class LandingPage extends Component{
     render(){
+        const downloadResume = () => {
+            window.open('https://drive.google.com/file/d/1m0rrSsW7LyuSVQj75ozSJkax5lc_XPB9/view')
+        }
 
         return(
             <div style={{padding: '10px' }}>
                 <h1>First Name: {candidateDetails.firstName}</h1>
                 <p>Highest Degree Passout Year: {candidateDetails.highestDegreePassoutYear}</p>
                 <p>Technologies/Languages: {candidateDetails.technologiesWorkedWith.join(', ')}</p>
+                <button onClick={downloadResume}>Download Resume</button>
             </div>
         )
     }
