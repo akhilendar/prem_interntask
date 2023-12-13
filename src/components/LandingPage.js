@@ -1,5 +1,4 @@
 import { Component } from "react";
-import {Link} from 'react-router-dom'
 
 const candidateDetails = {
     firstName: "Prem Rathan",
@@ -15,13 +14,14 @@ class LandingPage extends Component{
 
         return(
             <div style={{padding: '10px' }}>
+                <h1>Welcome to the Learn React Page</h1>
                 <h1>First Name: {candidateDetails.firstName}</h1>
                 <p>Highest Degree Passout Year: {candidateDetails.highestDegreePassoutYear}</p>
                 <p>Technologies/Languages: {candidateDetails.technologiesWorkedWith.join(', ')}</p>
                 <button onClick={downloadResume}>Download Resume</button>
-                <p>Click here to Calculate your BMI: <Link onClick={() => {window.location.href = "/bmi-calculator";}}>
+                <p>Click here to Calculate your BMI: <a onClick={() => {window.location.href = "/bmi-calculator";}}>
                     <button>BMI Calculator</button>
-                </Link></p>
+                </a></p>
             </div>
         )
     }
