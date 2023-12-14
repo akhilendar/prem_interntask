@@ -2,7 +2,7 @@
   "name": "cubixcraft-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://PremRathan2003.github.io/cubixcraft-app",
+  "homepage": "https://akhilendar.github.io/prem_interntask",
   "dependencies": {
     "16": "^0.0.2",
     "@testing-library/jest-dom": "^5.17.0",
