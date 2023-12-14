@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/prem_interntask/static/css/main.e6c13ad2.css",
+    "main.js": "/prem_interntask/static/js/main.69d2e813.js",
+    "static/js/564.2ebe6d97.chunk.js": "/prem_interntask/static/js/564.2ebe6d97.chunk.js",
+    "index.html": "/prem_interntask/index.html",
+    "main.e6c13ad2.css.map": "/prem_interntask/static/css/main.e6c13ad2.css.map",
+    "main.69d2e813.js.map": "/prem_interntask/static/js/main.69d2e813.js.map",
+    "564.2ebe6d97.chunk.js.map": "/prem_interntask/static/js/564.2ebe6d97.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.69d2e813.js"
+  ]
+}
